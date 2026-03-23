@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
-import { useSwitch } from "@heroui/switch";
+import { useSwitch } from "@heroui/react";
 import clsx from "clsx";
-import { useTheme } from "@heroui/use-theme";
+import { useTheme } from "@heroui/react";
 
 import { SunFilledIcon, MoonFilledIcon } from "./Icons";
 

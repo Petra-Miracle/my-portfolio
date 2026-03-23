@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 
-import { Button } from "@heroui/button";
-import { Link } from "@heroui/link";
 import {
+  Button,
+  Link,
   Navbar as HeroUINavbar,
   NavbarBrand,
   NavbarContent,
@@ -11,13 +11,11 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-} from "@heroui/navbar";
-import {
   Dropdown,
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-} from "@heroui/dropdown";
+} from "@heroui/react";
 
 import { ThemeSwitch } from "./ThemeSwitch";
 
